@@ -1,0 +1,11 @@
+## Contents Description
+
+### CP1/
+
+This is the main directory of the project, containing all necessary files.
+
+- **template.ipynb**
+
+### Competition_data/
+
+This folder contains datasets related to the competition.
