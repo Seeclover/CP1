@@ -1,11 +1,17 @@
 ## Contents Description
 
-### CP1/
+### `CP1/`
 
-This is the main directory of the project, containing all necessary files.
+- **`template.ipynb`**: A Jupyter Notebook template that guides you through data analysis or model training.
 
-- **template.ipynb**
+### `Competition_data/`
 
-### Competition_data/
+- **`dataset1.csv`**: [Brief description of what this dataset contains].
+- **`dataset2.csv`**: [Brief description of what this dataset contains].
+- **`...`**: [Additional datasets with brief descriptions].
 
-This folder contains datasets related to the competition.
+## Usage
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your_username/project_name.git
