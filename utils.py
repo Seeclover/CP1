@@ -22,5 +22,13 @@ def standardize_data(X_train, X_test):
     return X_train_scaled, X_test_scaled
 
 def save_predictions_to_csv(predictions, dataset_name, folder_path='./Competition_data/'):
-    df = pd.DataFrame(predictions, columns=['y_predict_proba'])
+    """
+    Save binary predictions to CSV file.
+    Convert predicted probabilities to 0 or 1 based on a threshold of 0.5.
+    """
+    # Convert probabilities to binary predictions (0 or 1)
+    binary_predictions = (predictions >= 0.5).astype(int)
+    
+    # Create DataFrame and save to CSV
+    df = pd.DataFrame(binary_predictions, columns=['y_predict_proba'])
     df.to_csv(f'{folder_path}{dataset_name}/y_predict.csv', index=False, header=True)
