@@ -69,21 +69,22 @@
 
 --==========--
 
-
+<pre>
 ├── ABC_Binary_Classification_001.ipynb                         # 0.798371
 ├── ABC_Binary_Classification_002.ipynb                         # 0.802563 (3rd)
 ├── ABC_Binary_Classification_003.ipynb                         # 0.838294 (2nd)
 ├── ABC_Binary_Classification_004.ipynb                         # 0.840522 (1st)
 └── README.txt
-
+</pre>
 
 Upload File:
   1. Prepare the ZIP file
-(.venv) CP1 % zip Chen\ Polo.zip Competition_data/*/*                                               
+  <pre>
+  (.venv) CP1 % zip Chen\ Polo.zip Competition_data/*/*                                               
   adding: Competition_data/Dataset_1/X_test.csv (deflated 88%)
   adding: Competition_data/Dataset_1/X_train.csv (deflated 89%)
   ...
   adding: Competition_data/Dataset_9/y_predict.csv (deflated 77%)
   adding: Competition_data/Dataset_9/y_train.csv (deflated 78%)
-(.venv) CP1 %
-
+  (.venv) CP1 %
+  </pre>
